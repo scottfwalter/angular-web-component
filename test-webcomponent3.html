@@ -1,0 +1,36 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Testing the News Web Component</title>
+      <base href="/">
+    </head>
+    <body>
+      <h1>Test Web Component With Build Plus Shared Libraries</h1>
+      <news-widget></news-widget>
+
+
+      <!-- not working -->
+      <!--
+      <script type="text/javascript" src="dist/angular-web-component/polyfills.8dee40beb0de2b87caa1.js"></script>
+      <script type="text/javascript" src="dist/angular-web-component/scripts.735c5408f5c2c8e09056.js"></script>
+      <script type="text/javascript" src="dist/angular-web-component/main.c6ea5f1c55801cc42b20.js"></script>
+      -->
+
+      <!-- not working -->
+      <!--
+      <script type="text/javascript" src="dist/angular-web-component/polyfill-webcomp.961642fb8dba585ce301.js"></script>
+      <script type="text/javascript" src="dist/angular-web-component/polyfills.8dee40beb0de2b87caa1.js"></script>
+      <script type="text/javascript" src="dist/angular-web-component/scripts.735c5408f5c2c8e09056.js"></script>
+      <script type="text/javascript" src="dist/angular-web-component/main.c6ea5f1c55801cc42b20.js"></script>
+      -->
+
+      <!-- working -->
+      <script type="text/javascript" src="dist/angular-web-component/polyfill-webcomp-es5.97412fda132986395243.js"></script>
+      <script type="text/javascript" src="dist/angular-web-component/polyfills.8dee40beb0de2b87caa1.js"></script>
+      <script type="text/javascript" src="dist/angular-web-component/scripts.735c5408f5c2c8e09056.js"></script>
+      <script type="text/javascript" src="dist/angular-web-component/main.c6ea5f1c55801cc42b20.js"></script>
+    </body>
+    </html>
